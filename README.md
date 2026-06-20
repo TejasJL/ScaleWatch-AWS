@@ -249,20 +249,6 @@ http://YOUR-ALB-DNS-NAME.ap-south-1.elb.amazonaws.com
 
 ---
 
-## 🗣️ Interview Talking Points
-
-> *"I built a web application on AWS that never crashes under traffic spikes — it auto-scales itself. The Application Load Balancer distributes requests across multiple EC2 instances in two availability zones. When CPU exceeds 60%, CloudWatch alarm fires and Auto Scaling launches a new EC2 instance within 2 minutes using a pre-configured Launch Template that automatically installs and starts the Flask app. The live dashboard shows which exact server handled your request — you can literally watch new instances spin up by clicking the load test button."*
-
-**Key technical terms to use:**
-- Horizontal scaling vs vertical scaling
-- Target tracking scaling policy
-- EC2 instance metadata service (IMDSv2)
-- ALB health checks and target groups
-- Multi-AZ high availability
-- Infrastructure as Code (userdata script)
-- Self-healing infrastructure
-
----
 
 <div align="center">
 Built with ❤️ on AWS · Region: ap-south-1 (Mumbai)
