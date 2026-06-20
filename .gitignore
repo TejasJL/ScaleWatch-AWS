@@ -1,0 +1,8 @@
+*.pem
+*.ppk
+__pycache__/
+*.pyc
+.env
+venv/
+.DS_Store
+*.log
