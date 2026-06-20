@@ -19,6 +19,7 @@
 ## 🎯 What Is This?
 
 ScaleWatch is a Flask web application deployed on AWS that **demonstrates horizontal auto-scaling in real time**. When CPU load increases, AWS automatically launches new EC2 instances. When load drops, it removes them. The dashboard lets you **see this happening live** — which instance served your request, which availability zone it's in, and a load simulator that actually triggers scaling.
+I built a web application on AWS that never crashes under traffic spikes — it auto-scales itself. The Application Load Balancer distributes requests across multiple EC2 instances in two availability zones. When CPU exceeds 60%, CloudWatch alarm fires and Auto Scaling launches a new EC2 instance within 2 minutes using a pre-configured Launch Template that automatically installs and starts the Flask app. The live dashboard shows which exact server handled your request — you can literally watch new instances spin up by clicking the load test button.
 
 This project proves: **your app will never crash under traffic spikes because infrastructure scales itself.**
 
