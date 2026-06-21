@@ -10,7 +10,7 @@
 
 **A production-grade web application that automatically scales EC2 instances based on real CPU load — with a live dashboard showing exactly which server handled your request.**
 
-[🌐 Live Demo](http://YOUR-ALB-DNS.ap-south-1.elb.amazonaws.com) · [📖 How It Works](#how-it-works) · [🚀 Deploy It Yourself](#deploy)
+[🌐 Live Demo](https://scalewatch-alb-1971735646.ap-south-1.elb.amazonaws.com/) · 
 
 <img width="1813" height="850" alt="image" src="https://github.com/user-attachments/assets/5fb8033d-655c-4ccb-a13f-ee015a6313ee" />
 
