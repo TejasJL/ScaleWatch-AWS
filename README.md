@@ -12,6 +12,9 @@
 
 [🌐 Live Demo](http://YOUR-ALB-DNS.ap-south-1.elb.amazonaws.com) · [📖 How It Works](#how-it-works) · [🚀 Deploy It Yourself](#deploy)
 
+<img width="1813" height="850" alt="image" src="https://github.com/user-attachments/assets/5fb8033d-655c-4ccb-a13f-ee015a6313ee" />
+
+
 </div>
 
 ---
